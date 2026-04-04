@@ -7,7 +7,7 @@
 3.  Deleting Files with the fs Module
 4.  Introduction to the path Module
 
-## project cover topic:
+## This Project Cover Topic:
 
 1. Building a Simple File Organizer CLI Part 1
 2. Building a File Organizer CLI Part 2
