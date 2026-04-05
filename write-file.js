@@ -1,20 +1,23 @@
+// Written Synchronous
 const fs = require("fs");
 
-const content1 = "This is a content \n Synchronous!!!";
+const content = "This is Content \n Synchronous!!!";
 
 try {
-  fs.writeFileSync("./output/test-sync.txt", content1);
-  console.log("file written sync");
-} catch (err) {
-  console.err(err.message);
+  fs.writeFileSync("./output/test-sync.txt", content);
+  console.log("File written successfully using sync method.");
+} catch (error) {
+  console.error("Sync write error:", error.message);
 }
 
-const content2 = " This is a content too \n asynchronous!!!";
+// Written Asynchronous
+const content2 = "This is content2 \n Asynchronous!!!";
 
-fs.writeFile("./output/test-async.txt", content2, (error) => {
+fs.writeFile("./output/test-async.txt", content, (error) => {
   if (error) {
-    console.error(error.message);
-  } else {
-    console.log("file written asynchronously");
+    console.error("Async write error:", error.message);
+    return;
   }
+
+  console.log("File written successfully using async method.");
 });
