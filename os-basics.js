@@ -26,3 +26,13 @@ console.log(
   "GB",
 );
 console.log("Free Memory : ", (freeMem / 1024 / 1024 / 1024).toFixed(2), "GB");
+
+console.log("-".repeat(50));
+
+const uptime = os.uptime();
+
+const days = Math.floor(uptime / 86400);
+const hours = Math.floor((uptime % 86400) / 3600);
+const minutes = Math.floor((uptime % 3600) / 60);
+
+console.log(`${days} days ${hours} hours ${minutes} minutes`);
