@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/md-abu-kayser/portfolio00.git"
+    "url": "git+https://github.com/md-abu-kayser/nodejs-core-modules-deep-dive.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/md-abu-kayser/portfolio00/issues"
+    "url": "https://github.com/md-abu-kayser/nodejs-core-modules-deep-dive/issues"
   },
-  "homepage": "https://github.com/md-abu-kayser/portfolio00#readme",
+  "homepage": "https://github.com/md-abu-kayser/nodejs-core-modules-deep-dive#readme",
   "dependencies": {
     "dotenv": "^17.4.2"
   }
